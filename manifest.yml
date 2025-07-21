@@ -1,0 +1,12 @@
+manifest_version: 1
+artifacts:
+  streamlit: streamlit_app.py
+
+configuration:
+  default_connection: my_snowflake_conn
+  connections:
+    - name: my_snowflake_conn
+      type: snowflake
+
+version:
+  name: 1.0.0
